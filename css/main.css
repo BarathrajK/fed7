@@ -253,6 +253,7 @@
 }
 .features{
     padding-top: 20px;
+    padding-left: 90px;
 }
 .features-container{
     max-width: 960px;
@@ -302,6 +303,7 @@
 }
 .text-center{
     text-align: center;
+    padding-left: 125px;
 }
 .cta{
     color: #fff;
@@ -327,7 +329,10 @@
     margin: 0 auto 15px 450px;
     list-style: none;
     border-radius: 50px;
-    padding: 2px 15px;
+    padding: 2px 100px;
+}
+.portfolio-flex-items:hover{
+    transform: scale(1.1);
 }
 .portfolio-fillter li{
     cursor: pointer;
@@ -342,8 +347,6 @@
     margin: 0 3px 10px 3px;
 
 }
-
- 
 .portfolio-flex-container{
     display: flex;
     flex-wrap: wrap;
